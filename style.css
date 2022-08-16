@@ -1,0 +1,14 @@
+html {
+    font-size: 10px;
+    font-family: placeholder;
+    width: 1200px;
+    height: 1000px;
+
+    background-color: grey;
+}
+
+body{
+    width: 1200px;
+    height: 1000px;
+    background-color: white;
+}
