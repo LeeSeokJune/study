@@ -1,14 +1,55 @@
-html {
-    font-size: 10px;
-    font-family: placeholder;
-    width: 1200px;
-    height: 1000px;
+body {
+    margin: 0px;
+  }
 
-    background-color: grey;
-}
+  a {
+    color: black;
+    text-decoration: none;
+  }
 
-body{
-    width: 1200px;
-    height: 1000px;
-    background-color: white;
-}
+  #active {
+    color: red;
+  }
+
+  .saw {
+    color: grey;
+  }
+
+  h1 {
+    font-size: 45;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  ol {
+    border-right: 1px solid grey;
+    width: 100px;
+    margin: 0px;
+    padding: 20px;
+
+  }
+
+  #grid ol {
+    padding-left: 33px;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  #article {
+    padding: 20px;
+  }
+
+  @media(max-width:800px) {
+    #grid {
+      display: block;
+    }
+
+    ol {
+      border-right: none;
+    }
+  }
